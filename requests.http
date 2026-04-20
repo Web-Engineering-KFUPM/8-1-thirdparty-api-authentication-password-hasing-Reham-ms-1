@@ -1,0 +1,24 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "email": "studenta@example.com",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "studenta@example.com",
+  "password": "123456"
+}
+####
+GET http://localhost:3000/weather?city=Riyadh
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN0dWRlbnRhQGV4YW1wbGUuY29tIiwiaWF0IjoxNzc2Njc0NjY2LCJleHAiOjE3NzY2NzgyNjZ9.Yig0BrtmAhA5Nem5n0hGaJNH0aqLnpnMfzmIyCue_PQ
